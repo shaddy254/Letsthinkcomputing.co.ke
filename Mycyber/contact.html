@@ -1,0 +1,64 @@
+﻿<?php include('contact.php');?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="contact.css">
+    
+</head>
+<body>
+    <div class="contact_us">
+        <form action="contact.php" method="POST">
+   <div class="container">
+   <h1>CONTACT US</h1>
+   <div class="form-group col-6">
+    <legend>FIRSTNAME</legend>
+    <input type="text" name="fname"  class="form-control" placeholder="Enter your first name" required>
+   </div>
+   <div class="form-group col-6">
+    <legend>LASTNAME</legend>
+    <input type="text" name="lname"  class="form-control" placeholder="Enter your last name" required>
+   </div>
+   <div class="form-group col-6">
+    <legend>EMAIL</legend>
+    <input type="email" name="email"  class="form-control" placeholder="Enter your Email" required>
+   </div>
+   <div class="form-group col-6">
+    <legend>MESSAGE</legend>
+
+    <input type="textarea" name="message"  class="form-control" placeholder="Enter your message" required>
+    <div class="form-group col-6">
+        <legend>DATE</legend>
+        <input type ="date" name="date"   required> 
+    </div> 
+    <button type="submit" name="submit" class="btn btn-danger">SUBMIT</button>
+   
+   <button type="reset" class="btn btn-primary">RESET</button>
+   </div>
+   </div>
+   </form> 
+
+    </div>
+    <br> <br>
+    <div class="addreses">
+        <div class="location">
+            <h1>OR USE OUR ADDRESSES</h1>
+            <h3>Machakos,</h3>
+            <legend>Kenya</legend>
+        </div>
+        <div class="phone_number">
+            <h3>+254 796 845 314</h3>
+            <legend>Monday to friday 8am to 6pm</legend>
+        </div>
+        <div class="email">
+          <legend>Email us</legend>  
+          <h3>letsthink21@gmail.com</h3>
+            
+        </div>
+    </div>
+    
+</body>
+</html>

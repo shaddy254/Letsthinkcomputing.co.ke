@@ -1,0 +1,40 @@
+body{
+    background: white;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+header nav ul{
+
+    background-color: indianred;
+    display: flex;
+    justify-content: space-around;
+    height: 50px;
+    list-style: none;
+}
+
+h1{
+    justify-content: center;
+    color: red;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.main_page{
+    position: relative;
+    background-color:whitesmoke;
+    left: 0%;
+    width: 66%;
+    align-items: center;
+}
+.related_post{
+    position: relative;
+    top: 20%;
+    background-color:white ;
+    right: 2px;
+    width: 30%;
+}
+a{
+    color: blue;
+    text-decoration: none;
+}
